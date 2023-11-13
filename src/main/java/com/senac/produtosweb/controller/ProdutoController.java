@@ -1,4 +1,4 @@
-package com.senac.produtosweb;
+package com.senac.produtosweb.controller;
 
 import com.senac.produtosweb.model.Produto;
 import com.senac.produtosweb.repository.ProdutoRepository;
