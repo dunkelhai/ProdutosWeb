@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS produtos_web;
+USE produtos_web;
+CREATE TABLE IF NOT EXISTS PRODUTO (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    preco DOUBLE NOT NULL
+);
+SELECT * FROM PRODUTO;
+DROP TABLE PRODUTO;
+INSERT INTO `produtos_web`.`PRODUTO` (`id`, `nome`, `preco`) VALUES ('1', 'Tábua', '10');
+
